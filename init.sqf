@@ -31,7 +31,7 @@ _TFB_dig_time       = 10;                       //Time it takes to dig trench
 
 // Dig a trench
 TFB_fnc_digTrench = {
-    _trench = createVehicle ["CraterLong",(_this select 1) modelToWorld [0,2,-.4], [], 0, "CAN_COLLIDE"];
+    _trench = createVehicle ["CraterLong",(_this select 1) modelToWorld [0,2,-.35], [], 0, "CAN_COLLIDE"];
     _trench setDir (getDir (_this select 1) - 90);
     (_this select 1) removeAction (_this select 2);
     _id = _trench addAction ["Fill Trench", {call TFB_fnc_removeTrench}]; 
