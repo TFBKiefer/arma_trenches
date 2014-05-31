@@ -10,9 +10,9 @@ http://tf-blackjack.com/
 TODO:
     - [x] Scrollwheel option to dig/fill
     - [x] Dig based off of classname(s)
-    - [o] Modulize script functions [Joe]
-    - [o] Make sure this works in multiplayer [Kiefer]
-    - [o] Add to GetHub [Joe}
+	- [x] Add to GetHub
+	- [x] Make sure this works in multiplayer
+    - [o] Modulize script functions
     - [o] Add timers to dig/fill 
     - [o] Add cancel system (move to cancel)
     - [o] Create Commands for multiple defense types
